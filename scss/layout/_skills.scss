@@ -1,0 +1,88 @@
+#skills {
+	padding-top: 20px;
+	@extend %neg-15-side-margin;
+	background-color: $hummingbird;
+	
+	@include tablet {
+	    padding-top: 15px;
+	    padding-bottom: 10px;	
+	}
+	
+	@include desktop {
+	    padding-top: 15px;
+	    padding-bottom: 10px;
+	    margin-left: 0;
+	    margin-right: 0;	
+	}
+}
+
+
+.skills-list {
+	display: block;
+	@extend %centered;
+	margin: 0 auto;
+	padding: 0 0 40px;
+	
+	@include tablet {
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    align-content: center;
+	    margin: 0 30px 40px;
+	    padding-bottom: 0;
+	}
+	
+	@include desktop {
+	    flex-wrap: nowrap;
+	    justify-content: space-between;
+	    align-items: center; 
+	}
+}
+
+
+.skills-list li {
+	color: $highlight-color;
+	background-color: $viking-blue;
+	padding: 10px 0;
+	margin: 25px 50px;
+	
+	&:nth-child(2) {
+		background-color: $apricot-pink;
+	}
+	
+	&:nth-child(3) {
+		background-color: $malibu-blue;
+	}
+	
+	&:last-child {
+		background-color: $wistful-purple;
+	}
+	
+	@include tablet {
+	    width: 45%;
+	    padding: 20px;
+	    font-size: $font-size-medium;
+	    margin: 25px 0;	
+	}
+	
+	@include desktop {
+		width: 20%;
+	}
+}
+
+
+.skills-list span {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+#skills-title {
+	margin: 20px auto 40px;
+	
+	@include tablet {
+	    margin-top: 45px;
+	    margin-bottom: 30px;	
+	}
+}

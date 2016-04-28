@@ -1,0 +1,68 @@
+//NAV
+
+
+.main-nav {
+	@extend %centered;
+	display: block;
+	margin: 0 auto;
+	padding: 0 15px;
+	
+	@include tablet {
+	    padding-left: 0;
+	    padding-right: 0;
+	    display: flex;
+	}
+	
+	@include desktop {
+	    margin: 0;
+	    padding: 0;
+	}
+}
+
+
+.main-nav li  {
+	@extend %bold-uppercase;
+	font-size: $font-size-small;
+	background-color: $highlight-color;
+	margin: 5px auto;
+	
+	&:last-child {
+	    @include desktop {
+		    padding-right: 30px;
+	    }
+	}
+	
+	&:hover {
+		background-color: $viking-blue;
+		-webkit-transition: all .3s linear;
+		
+		@include tablet {
+		    background-color: $solitude-blue;
+		    padding-top: 0;	
+		}
+	}
+	
+	@include tablet {
+	    background-color: $solitude-blue;
+	    padding-top: 0;
+	}
+	
+	@include desktop {
+		padding-left: 5px;
+	}
+		
+}
+
+
+.main-nav li a {
+    display: block;
+    padding: 10px 15px;
+    
+    &:hover {
+    	color: $highlight-color;
+    	
+    	@include tablet {
+        	@include blue-hover;
+    	}	
+    } 
+}

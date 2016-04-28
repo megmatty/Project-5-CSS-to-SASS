@@ -1,0 +1,21 @@
+//Mixins - Media Queries
+
+@mixin tablet {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }   
+}
+
+@mixin desktop {
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+
+//Mixins - Other
+
+@mixin blue-hover {
+   color: $viking-blue;
+   -webkit-transition: all .3s linear;
+}

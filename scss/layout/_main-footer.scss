@@ -1,0 +1,60 @@
+.main-footer {
+	background-color: $solitude-blue;
+	padding-top: 40px;
+	@extend %neg-15-side-margin;
+	
+	@include tablet {
+	    margin-top: 0;
+	    padding-top: 40px;	
+	}	
+}
+
+.main-footer p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	@extend %side-20-padding;
+	color: $text-color-light;
+	
+	@include tablet {
+	    font-size: $font-size-medium + .1em;
+	    margin-left: $side-margin;
+	    margin-right: $side-margin;
+	}
+	
+	@include desktop {
+	    margin-left: $side-margin * 3;
+	    margin-right: $side-margin * 3;	
+	}
+}
+
+
+
+//Contact Info
+.contact-info {
+	@extend %centered;
+	color: $text-color-light;
+	@extend %side-20-padding;
+	
+	@include tablet {
+	    font-size: $font-size-medium + .1em;
+    	padding-bottom: 15px;
+	}
+}
+
+
+.contact-info span {
+	padding-right: 10px;
+}
+
+.contact-info a {
+	display: inline-block;
+	margin-bottom: 15px;
+	font-family: $stack-opensans;
+	font-weight: bold;
+	color: $text-color-light;
+	
+	&:hover {
+		@include blue-hover;
+	}
+}
+

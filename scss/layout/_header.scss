@@ -1,0 +1,68 @@
+header {
+    @include tablet {
+    	width: 50%;
+    	margin: 10px auto 0;
+    }
+    
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;    
+    }
+}
+
+.main-header {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	@extend %neg-15-side-margin;
+	background-color: $solitude-blue;
+	
+	@include tablet {
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+
+    @include desktop  {
+    	padding-left: 0;
+    	padding-right: 0;
+    	padding-top: 40px;
+    	max-width: 1600px;
+    	margin-left: -30px;
+    	margin-right: -30px;
+    }
+}
+
+.name {
+	font-family: $stack-courgette;
+	font-size: $font-size-large + .1em;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	margin-top: -15px;
+	
+	@include tablet {
+	    display: block;
+	    text-align: center;
+	    padding-bottom: 0;
+	}
+	
+	@include desktop  {
+	    margin-top: 0;
+	    margin-left: 45px;
+	    padding-left: 0;
+	}
+}
+
+#menu { 
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding-right: 25px;
+    font-size: 1.5em;
+    margin-top: -12px;
+}
+
+

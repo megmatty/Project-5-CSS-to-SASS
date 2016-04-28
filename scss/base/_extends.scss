@@ -1,0 +1,21 @@
+%neg-15-side-margin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+%bold-uppercase {
+    font-family: $stack-opensans;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+%side-20-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+%centered { 
+    text-align: center;
+}
+
+//One-rule @extend made to meet project requirements

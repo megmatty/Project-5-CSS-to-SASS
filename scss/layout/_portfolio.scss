@@ -1,0 +1,73 @@
+.portfolio {
+	background-color: $highlight-color;
+	padding-top:  0;
+	padding-bottom: 15px;
+	
+	@include tablet {
+	    display: flex;
+    	flex-direction: row;
+    	flex-wrap: wrap;
+    	justify-content: space-between;
+    	align-items: stretch;
+    	align-content: stretch;
+    	padding: 0 15px 15px;
+	}
+	
+	@include desktop {
+	    background-color: $highlight-color;
+	    padding-top: 130px;
+	    justify-content: center;
+	}
+}
+
+
+#portfolio-title {
+	margin: 40px auto;
+	
+	@include tablet {
+	    height: 40px;
+	    width: 100px;
+	    margin-top: 45px;
+	    margin-bottom: 30px;
+	}
+	
+	@include desktop {
+	    margin-bottom: -90px;
+	}
+}
+
+
+.portfolio img {
+	padding-bottom: 20px;
+}
+
+
+.project {
+	padding-bottom: 25px;
+	
+	@include tablet {
+	    width: 49%;	
+	}
+	
+	@include desktop {
+	    width: 31%;
+	    margin-left: 10px;
+	    margin-right: 10px;
+	    padding-bottom: 40px;	
+	}
+}
+
+.project p {
+    @include tablet {
+    	margin-left: $side-margin;
+    	margin-right: $side-margin;
+	}
+	
+	@include desktop {
+	    margin-left: 2%;
+	    margin-right: 2%;
+	}
+}
+
+
+

@@ -1,0 +1,66 @@
+//FOOTER NAV
+
+.footer-nav {
+	font-size: $font-size-xsmall;
+	padding: 5px 15px 25px;
+	display: flex;
+	justify-content: space-between;
+	
+	@include tablet {
+	    padding-left: 30px;
+	    padding-right: 30px;
+	    padding-bottom: 80px;
+	}
+	
+	@include desktop {
+	    padding-left: 45px;
+	    padding-right: 45px;
+	    padding-bottom: 20px;
+	}
+}
+
+
+.footer-nav span {
+    font-weight: bold;
+}
+
+
+.footer-nav a  {
+	@extend %bold-uppercase;
+}
+
+
+.bottom-nav {
+	display: none;
+	
+	@include tablet {
+	    display: flex;
+	    align-items: flex-start;
+	    margin-top: 0;
+	}
+	
+}
+
+.bottom-nav li {
+    @include tablet {
+	    padding-left: 30px;
+	}
+}
+
+.bottom-nav li a:hover {
+    @include tablet {
+    	@include blue-hover;
+	}
+}
+
+
+.back-top {	
+	&:hover {
+		@include blue-hover;
+	}
+	
+	@include tablet {
+	    display: none;
+	}
+}
+
