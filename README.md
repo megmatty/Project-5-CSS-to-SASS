@@ -14,6 +14,7 @@ This is my fifth project for Treehouse Techdegree: Front End Developer.
 * Nesting makes sense to me for pseudoselectors but not for much else? I need to read more about any benefits of nesting as they weren't immediately apparent to me other than being "organized".
 * Mixins appear very powerful and I haven't really scratched the surface of what they can do as far as passing arguments.
 * I need to read a tutorial on writing a project in Sass from the start instead of converting one to see workflow differences. In line media queries, for example, seem great to refactor, but more confusing to code from scratch?
+* There was an bug with FireFox not pulling down some Font Awesome icons from their CDN. I was able to verify this via google but couldn't find a way to fix it?
 
 ~Time to complete: 7 days probably total, the scripting for the menu and resolving innerWidth bug took longer than actually converting anything to Sass.
 
