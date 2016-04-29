@@ -4,8 +4,8 @@ This is my fifth project for Treehouse Techdegree: Front End Developer.
 
 **Project Notes:**
 * Attempted to hit all exceeds criteria
-* In the future, I'm going to implement this type of feature via CSS, although this time I used JS/jQuery. I had a lot of difficulty with window.innerWidth behaving consistently across browsers, and trying to get it to fire in conjunction with the CSS media queries.
-	* Safari appears to be impacted by different scrollbar display settings in the Finder that changed the window.innerWidth measurements
+* In the future, I'm going to implement mobile toggle menus via CSS, although this time I used JS/jQuery. I had a lot of difficulty with window.innerWidth behaving consistently across browsers, and trying to get it to fire in conjunction with the CSS media queries.
+	* Safari appears to be impacted by different scrollbar display settings in the Finder that changed the window.innerWidth measurements and fired the media query at a different time than desired. :/
 * I can see the benefits of moving a CSS project to Sass but had difficulty "thinking" in a partials/Sass way. I'm not sure I could write a project as partials from the start at this point.
 * Extends apparently can't be used in media queries but I was able to implement a mixin instead
 
