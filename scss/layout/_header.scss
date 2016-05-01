@@ -36,7 +36,7 @@ header {
 
 .name {
 	font-family: $stack-courgette;
-	font-size: $font-size-large + .1em;
+	font-size: $font-size-large;
 	display: inline-block;
 	text-align: left;
 	padding-bottom: 10px;
@@ -61,7 +61,7 @@ header {
     display: inline-block;
     float: right;
     padding-right: 25px;
-    font-size: 1.5em;
+    font-size: $font-size-large;
     margin-top: -12px;
 }
 

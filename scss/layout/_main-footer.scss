@@ -16,7 +16,7 @@
 	color: $text-color-light;
 	
 	@include tablet {
-	    font-size: $font-size-medium + .1em;
+	    font-size: $font-size-medium;
 	    margin-left: $side-margin;
 	    margin-right: $side-margin;
 	}
@@ -36,7 +36,7 @@
 	@extend %side-20-padding;
 	
 	@include tablet {
-	    font-size: $font-size-medium + .1em;
+	    font-size: $font-size-medium;
     	padding-bottom: 15px;
 	}
 }
@@ -52,9 +52,6 @@
 	font-family: $stack-opensans;
 	font-weight: bold;
 	color: $text-color-light;
-	
-	&:hover {
-		@include blue-hover;
-	}
+	@include blue-hover;
 }
 

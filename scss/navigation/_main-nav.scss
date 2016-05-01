@@ -60,9 +60,9 @@
     
     &:hover {
     	color: $highlight-color;
-    	
-    	@include tablet {
-        	@include blue-hover;
-    	}	
-    } 
+      } 
+      
+    @include tablet {
+  	    @include blue-hover;
+      }
 }

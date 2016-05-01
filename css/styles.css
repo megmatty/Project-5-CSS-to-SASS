@@ -11,11 +11,11 @@ h2, .main-nav li, .footer-nav a {
   text-transform: uppercase;
   font-weight: bold; }
 
-.profile p, .main-footer p, .contact-info {
+.main-footer p, .contact-info, .profile p {
   padding-left: 20px;
   padding-right: 20px; }
 
-h1, h2, h3, p, .main-nav, .skills-list, .social-media, .contact-info {
+h1, h2, h3, p, .skills-list, .contact-info, .main-nav, .social-media {
   text-align: center; }
 
 /* ================================= 
@@ -111,7 +111,7 @@ a {
 
 .name {
   font-family: "Courgette", cursive;
-  font-size: 1.6em;
+  font-size: 1.5em;
   display: inline-block;
   text-align: left;
   padding-bottom: 10px;
@@ -135,129 +135,6 @@ a {
   padding-right: 25px;
   font-size: 1.5em;
   margin-top: -12px; }
-
-.main-nav {
-  display: block;
-  margin: 0 auto;
-  padding: 0 15px; }
-  @media only screen and (min-width: 768px) {
-    .main-nav {
-      padding-left: 0;
-      padding-right: 0;
-      display: flex; } }
-  @media only screen and (min-width: 1024px) {
-    .main-nav {
-      margin: 0;
-      padding: 0; } }
-
-.main-nav li {
-  font-size: 0.95em;
-  background-color: #fff;
-  margin: 5px auto; }
-  @media only screen and (min-width: 1024px) {
-    .main-nav li:last-child {
-      padding-right: 30px; } }
-  .main-nav li:hover {
-    background-color: #66c5da;
-    -webkit-transition: all .3s linear; }
-    @media only screen and (min-width: 768px) {
-      .main-nav li:hover {
-        background-color: #E4F1FE;
-        padding-top: 0; } }
-  @media only screen and (min-width: 768px) {
-    .main-nav li {
-      background-color: #E4F1FE;
-      padding-top: 0; } }
-  @media only screen and (min-width: 1024px) {
-    .main-nav li {
-      padding-left: 5px; } }
-
-.main-nav li a {
-  display: block;
-  padding: 10px 15px; }
-  .main-nav li a:hover {
-    color: #fff; }
-    @media only screen and (min-width: 768px) {
-      .main-nav li a:hover {
-        color: #66c5da;
-        -webkit-transition: all .3s linear; } }
-
-/* ================================= 
-  Profile Pic
-==================================== */
-@media only screen and (min-width: 768px) {
-  .profile {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 0 30px;
-    margin-top: 50px; } }
-@media only screen and (min-width: 1024px) {
-  .profile {
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 30px; } }
-
-.profile-frame {
-  display: block;
-  margin: 15px auto 25px;
-  width: 200px;
-  height: 125px;
-  background-color: #ed9286;
-  position: relative;
-  opacity: 0.8; }
-  @media only screen and (min-width: 768px) {
-    .profile-frame {
-      width: 290px;
-      height: 175px;
-      margin: 0;
-      order: 2; } }
-  @media only screen and (min-width: 1024px) {
-    .profile-frame {
-      width: 365px;
-      height: 220px;
-      margin-top: 0;
-      margin-right: 45px; } }
-
-.profile-frame img {
-  display: block;
-  width: 95px;
-  height: 95px;
-  border-radius: 50%;
-  position: absolute;
-  margin: 15px 52.5px;
-  border: 3px solid #C5EFF7; }
-  @media only screen and (min-width: 768px) {
-    .profile-frame img {
-      width: 140px;
-      height: 140px;
-      margin: 17.5px 75px;
-      border-width: 4px; } }
-  @media only screen and (min-width: 1024px) {
-    .profile-frame img {
-      width: 175px;
-      height: 175px;
-      margin: 22.5px 95px;
-      border-width: 5px; } }
-
-.profile p {
-  color: #7e7f7e; }
-  @media only screen and (min-width: 768px) {
-    .profile p {
-      flex: 1 50%;
-      line-height: 1.5;
-      text-align: left;
-      padding-left: 0;
-      padding-right: 12px;
-      margin-top: 0;
-      font-size: 1.2em; } }
-  @media only screen and (min-width: 1024px) {
-    .profile p {
-      margin-right: 2%;
-      margin-left: 45px; } }
-
-.profile img {
-  display: block; }
 
 .portfolio {
   background-color: #fff;
@@ -379,27 +256,6 @@ a {
       margin-top: 45px;
       margin-bottom: 30px; } }
 
-.social-media {
-  margin: 20px auto 60px; }
-
-.social-media li {
-  display: inline;
-  padding: 0 10px 40px; }
-
-.fa-facebook-square {
-  color: #3B5998; }
-.fa-twitter-square {
-  color: #55acee; }
-.fa-linkedin-square {
-  color: #0077b5; }
-.fa-github-square {
-  color: #4183c4; }
-
-.grow-icon {
-  transition: all .2s ease-in-out; }
-  .grow-icon:hover {
-    transform: scale(1.3); }
-
 .main-footer {
   background-color: #E4F1FE;
   padding-top: 40px; }
@@ -414,7 +270,7 @@ a {
   color: #7e7f7e; }
   @media only screen and (min-width: 768px) {
     .main-footer p {
-      font-size: 1.2em;
+      font-size: 1.1em;
       margin-left: 7.3%;
       margin-right: 7.3%; } }
   @media only screen and (min-width: 1024px) {
@@ -426,7 +282,7 @@ a {
   color: #7e7f7e; }
   @media only screen and (min-width: 768px) {
     .contact-info {
-      font-size: 1.2em;
+      font-size: 1.1em;
       padding-bottom: 15px; } }
 
 .contact-info span {
@@ -441,6 +297,52 @@ a {
   .contact-info a:hover {
     color: #66c5da;
     -webkit-transition: all .3s linear; }
+
+.main-nav {
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px; }
+  @media only screen and (min-width: 768px) {
+    .main-nav {
+      padding-left: 0;
+      padding-right: 0;
+      display: flex; } }
+  @media only screen and (min-width: 1024px) {
+    .main-nav {
+      margin: 0;
+      padding: 0; } }
+
+.main-nav li {
+  font-size: 0.95em;
+  background-color: #fff;
+  margin: 5px auto; }
+  @media only screen and (min-width: 1024px) {
+    .main-nav li:last-child {
+      padding-right: 30px; } }
+  .main-nav li:hover {
+    background-color: #66c5da;
+    -webkit-transition: all .3s linear; }
+    @media only screen and (min-width: 768px) {
+      .main-nav li:hover {
+        background-color: #E4F1FE;
+        padding-top: 0; } }
+  @media only screen and (min-width: 768px) {
+    .main-nav li {
+      background-color: #E4F1FE;
+      padding-top: 0; } }
+  @media only screen and (min-width: 1024px) {
+    .main-nav li {
+      padding-left: 5px; } }
+
+.main-nav li a {
+  display: block;
+  padding: 10px 15px; }
+  .main-nav li a:hover {
+    color: #fff; }
+  @media only screen and (min-width: 768px) {
+    .main-nav li a:hover {
+      color: #66c5da;
+      -webkit-transition: all .3s linear; } }
 
 .footer-nav {
   font-size: 0.8em;
@@ -484,5 +386,103 @@ a {
 @media only screen and (min-width: 768px) {
   .back-top {
     display: none; } }
+
+.social-media {
+  margin: 20px auto 60px; }
+
+.social-media li {
+  display: inline;
+  padding: 0 10px 40px; }
+
+.fa-facebook-square {
+  color: #3B5998; }
+.fa-twitter-square {
+  color: #55acee; }
+.fa-linkedin-square {
+  color: #0077b5; }
+.fa-github-square {
+  color: #4183c4; }
+
+.grow-icon {
+  transition: all .2s ease-in-out; }
+  .grow-icon:hover {
+    transform: scale(1.3); }
+
+/* ================================= 
+  Profile Pic
+==================================== */
+@media only screen and (min-width: 768px) {
+  .profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin-top: 50px; } }
+@media only screen and (min-width: 1024px) {
+  .profile {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px; } }
+
+.profile-frame {
+  display: block;
+  margin: 15px auto 25px;
+  width: 200px;
+  height: 125px;
+  background-color: #ed9286;
+  position: relative;
+  opacity: 0.8; }
+  @media only screen and (min-width: 768px) {
+    .profile-frame {
+      width: 290px;
+      height: 175px;
+      margin: 0;
+      order: 2; } }
+  @media only screen and (min-width: 1024px) {
+    .profile-frame {
+      width: 365px;
+      height: 220px;
+      margin-top: 0;
+      margin-right: 45px; } }
+
+.profile-frame img {
+  display: block;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  position: absolute;
+  margin: 15px 52.5px;
+  border: 3px solid #C5EFF7; }
+  @media only screen and (min-width: 768px) {
+    .profile-frame img {
+      width: 140px;
+      height: 140px;
+      margin: 17.5px 75px;
+      border-width: 4px; } }
+  @media only screen and (min-width: 1024px) {
+    .profile-frame img {
+      width: 175px;
+      height: 175px;
+      margin: 22.5px 95px;
+      border-width: 5px; } }
+
+.profile p {
+  color: #7e7f7e; }
+  @media only screen and (min-width: 768px) {
+    .profile p {
+      flex: 1 50%;
+      line-height: 1.5;
+      text-align: left;
+      padding-left: 0;
+      padding-right: 12px;
+      margin-top: 0;
+      font-size: 1.1em; } }
+  @media only screen and (min-width: 1024px) {
+    .profile p {
+      margin-right: 2%;
+      margin-left: 45px; } }
+
+.profile img {
+  display: block; }
 
 /*# sourceMappingURL=styles.css.map */

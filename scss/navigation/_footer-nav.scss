@@ -47,7 +47,7 @@
 	}
 }
 
-.bottom-nav li a:hover {
+.bottom-nav li a {
     @include tablet {
     	@include blue-hover;
 	}
@@ -55,9 +55,7 @@
 
 
 .back-top {	
-	&:hover {
-		@include blue-hover;
-	}
+	@include blue-hover;
 	
 	@include tablet {
 	    display: none;

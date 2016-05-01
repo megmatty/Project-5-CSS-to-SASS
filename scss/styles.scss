@@ -1,13 +1,9 @@
-@import "base/_variables.scss";
-@import "base/_typography.scss";
-@import "base/_mixins.scss";
-@import "base/_extends.scss";
-@import "base/_general-styles.scss";
-@import "layout/_header.scss";
-@import "navigation/_main-nav.scss";
-@import "components/_profile.scss";
-@import "layout/_portfolio.scss";
-@import "layout/_skills.scss";
-@import "components/_social-icons.scss";
-@import "layout/_main-footer.scss";
-@import "navigation/_footer-nav.scss";
+@import "base/_base";
+@import "layout/_layout";
+@import "navigation/_navigation";
+@import "components/_components";
+
+
+
+
+
