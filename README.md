@@ -2,6 +2,14 @@
 ----
 This is my fifth project for Treehouse Techdegree: Front End Developer.
 
+**Revisions**
+* Changed font-size on line 64 of layout/_header.scss, this font-size value to a variable
+* Removed all “+ .1em” values from variables cited in feedback
+* Created a manifest for each subfolder & imported those into the styles file
+* Simplified path for imports to exclude .scss suffix
+* Changed mixin for hover text to include &hover placeholder
+* Resolved fontawesome import issues in Firefox
+
 **Project Notes:**
 * Attempted to hit all exceeds criteria
 * In the future, I'm going to implement mobile toggle menus via CSS, although this time I used JS/jQuery. I had a lot of difficulty with window.innerWidth behaving consistently across browsers, and trying to get it to fire in conjunction with the CSS media queries.
@@ -14,7 +22,6 @@ This is my fifth project for Treehouse Techdegree: Front End Developer.
 * Nesting makes sense to me for pseudoselectors but not for much else? I need to read more about any benefits of nesting as they weren't immediately apparent to me other than being "organized".
 * Mixins appear very powerful and I haven't really scratched the surface of what they can do as far as passing arguments.
 * I need to read a tutorial on writing a project in Sass from the start instead of converting one to see workflow differences. In line media queries, for example, seem great to refactor, but more confusing to code from scratch?
-* There was an bug with FireFox not pulling down some Font Awesome icons from their CDN. I was able to verify this via google but couldn't find a way to fix it?
 
 ~Time to complete: 7 days probably total, the scripting for the menu and resolving innerWidth bug took longer than actually converting anything to Sass.
 
