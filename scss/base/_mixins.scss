@@ -16,6 +16,8 @@
 //Mixins - Other
 
 @mixin blue-hover {
-   color: $viking-blue;
-   -webkit-transition: all .3s linear;
+    &:hover {
+        color: $viking-blue;
+        -webkit-transition: all .3s linear;
+    }
 }
